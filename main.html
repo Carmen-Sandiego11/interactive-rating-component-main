@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="ratingBox">
+
+    <div class="star circle"><img src="images/icon-star.svg"></div>
+    <h2 class="title">How did we do?</h2>
+    <p class="txt">Please let us know how we did with your support<br> 
+      request.  All feedback is appreciated to help us <br>
+      improve our offering!</p>
+
+    <ul class="list">
+
+      <label class="container">
+        <input class='check' type="radio" id="B1" value="1" name="radio">
+        <li class="circle" rate="1"><label for="B1"><p>1</p></label></li>
+      </label>
+
+      <label class="container A">
+        <input class='check' type="radio" id="B2" value="2" name="radio">
+        <li class="circle" rate="2"><label for="B2"><p>2</p></label></li>
+      </label>
+
+      <label class="container A">
+        <input class='check' type="radio" id="B3" value="3" name="radio">
+        <li class="circle" rate="3"><label for="B3"><p>3</p></label></li>
+      </label>
+      
+      <label class="container A">
+        <input class='check' type="radio" id="B4" value="4" name="radio">
+        <li class="circle" rate="4"><label for="B4"><p>4</p></label></li>
+      </label>
+
+      <label class="container A">
+        <input class='check' type="radio" id="B5" value="5" name="radio">
+        <li class="circle" rate="5"><label for="B5"><p>5</p></label></li>
+      </label>
+      
+    </ul>  
+
+    <a class="submit" onclick="submit()"><p>SUBMIT</p></a>
+
+  </div>
+
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+   <script src="main.js"></script>
+</body>
+</html>

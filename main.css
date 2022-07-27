@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{background-color: #141519}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.ratingBox{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 414px;
+ height: 414px;
+ background: radial-gradient(100% 100% at 50% 0%, #232A32 0%, #171E28 100%);
+ border-radius: 30px;
+ margin: 10px;
+}
+
+.circle{
+ width: 48px;
+ height: 48px;
+ border-radius: 10000px;
+ background: rgba(124, 135, 152, 0.23);
+}
+
+.star{
+ position: absolute;
+ top: 33px;
+ left: 38px;
+}
+
+.star img{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.title{
+    position: absolute;
+    left: 31px;
+    margin-top: 113px;
+    width: 205px;
+    height: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28.5px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.txt{
+    position: absolute;
+    margin-top: 161px;
+    left: 31px;
+    width: 327px;
+    height: 67px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: hsl(217, 12%, 63%);
+}
+
+.list{
+    position: absolute;
+    margin-top: 256px;
+    left: -5.5px;
+    list-style-type: none;
+    display: flex;
+}
+
+.list li p{
+    position: absolute;
+    margin-left: 19.5px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+
+
+.list li{
+  border-radius: 100px;    
+}
+
+
+.list li:hover{
+   background : rgba(124, 135, 152, 1); 
+}
+
+.list input:checked ~ .circle {
+    background:  hsl(25, 97%, 53%);
+}
+
+input{
+    display: none;
+    position: absolute;
+}
+
+.list .A{
+    margin-left: 23px;
+}
+
+.submit{
+  position: absolute;
+  top: 332px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 343px;
+  height: 47px;
+  background: #FC7613;
+  border-radius: 100px;
+  border: none;
+  font-family: 'Overpass', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.12em;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+}
+
+.submit:active{
+    background: #FFFFFF;
+    color: #FC7613;
+}
+
